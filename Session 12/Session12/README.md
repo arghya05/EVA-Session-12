@@ -17,15 +17,15 @@ Object Localisation is a very hard task to do because we should not only predict
 
 # *Assignment*
 
-## **Assignment A - Tiny ImageNet**  [Code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/S12-AssignmentA/FinalCode.ipynb)
+## **Assignment A - Tiny ImageNet**  [Code](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/S12-AssignmentA/FinalCode.ipynb)
 
 
 Should train ResNet18  on **Tiny ImageNetData Set** and reach test accuracy of 50%
 
 ### **Implementation**
-**[Api can be found here](https://github.com/Sushmitha-Katti/PyTNet)**
+**[Api can be found here](https://github.com/arghya05/EVA-Session-12/tree/main/Session%2012/Session12/S12-AssignmentA/PyTNet)**
 
-***No changes are done to previous files. Added [tinyimagenet](https://github.com/Sushmitha-Katti/PyTNet/blob/master/tinyimagenet.py) file for processing of tiny image net data.***
+***No changes are done to previous files. Added [tinyimagenet](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/S12-AssignmentA/PyTNet/Dataset/tinyimagenet.py) file for processing of tiny image net data.***
 
 1. Wrote a Code to download, mix train and test , split and convert to the dataset format.
 2. Used One Cycle Policy as Scheduler. It yielded better and fast results than others
@@ -41,39 +41,39 @@ Should train ResNet18  on **Tiny ImageNetData Set** and reach test accuracy of 5
 
 ### **Results**
 
-1. Best train Accuracy - 74%
-2. Best test Accuracy - 57.69%
+1. Best train Accuracy - 73.42:%
+2. Best test Accuracy - 57.75%
 4. Accuracy Change Graph
 
-![Accuracy Change](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/Accuracy%20Change.png)
+![Accuracy Change](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/Assets/Accuracy%20Change.png)
 
 5. GradCam on MisClassified Images (All 4 layers)
-![MisClassified](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/misclassified.png)
+![MisClassified](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/Assets/misclassified.png)
 
 
-## **Assignment B - Find out the best total numbers of clusters**  [Code](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/S12-AssignmentB/Clustering%20Dogs%20Bounding%20Boxes.ipynb)
+## **Assignment B - Find out the best total numbers of clusters**  [Code](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/S12-AssignmentB/Clustering%20image%20Bounding%20Boxes.ipynb)
    
- To download 50 dog images, annotate with vgg annotator, find out the best no of clusters
+ To download 200 hardhat,mask,vest and boots images, annotate with vgg annotator, find out the best no of clusters
  
  **Visualisation of data**
  
- ![data](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/data.png)
+ ![data](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/S12-AssignmentB/images/Images/2019-08-tsa-80.png)
  
  **Elbow method to find out K**
  
- ![elbow](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/elbow.png)
+ ![elbow](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/Assets/elbow.png)
  
  
  **Mean Iou Method to find out k**
  
- ![Mean IOU](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/IOU.png)
+ ![Mean IOU](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/Assets/IOU.png)
  
  **K means with k = 3**
  
- ![K=3](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/K%3D3.png)
+ ![K=3](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/Assets/K%3D3.png)
  
  **K Means with k =4**
  
- ![k=4](https://github.com/Sushmitha-Katti/EVA-4/blob/master/Session12/Assets/k%3D4.png)
+ ![k=4](https://github.com/arghya05/EVA-Session-12/blob/main/Session%2012/Session12/Assets/k%3D4.png)
 
 
